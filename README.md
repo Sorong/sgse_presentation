@@ -138,7 +138,7 @@
 
 - `ipfs cat`, `ipfs ls`, `ipfs add`, `ipfs pim rm`, `ipfs repo gc`
 
-- Daemon zur Interaktio mit dem Netzwerk
+- Daemon zur Interaktion mit dem Netzwerk
 
 - HTTP-Gateway `<GATEWAY>/ipfs/<HASH>`
 
@@ -154,7 +154,7 @@
 - Erfordert IPFS-Daemon
 	- `localhost:5001:/webui`
 
-- Tool zur Visulasierung und Konfiguration
+- Tool zur Visualisierung und Konfiguration
 
 
 # DAT
@@ -168,7 +168,7 @@
 
 ## Peer-to-Peer Streaming Peer Protocol (PPSPP)
 
-- Legt Datenreihenfolge durch Generierung eines Merkle Tree fest
+- Legt Reihenfolge der Daten durch Generierung eines Merkle Tree fest
 
 - BitTorrent legt keine Reihenfolge fest 
 
@@ -190,7 +190,7 @@
 
 - 32-Byte-Public-Key 
 
-- Keine Authenfikationsmechanismen
+- Keine Authentifikationsmechanismen
 
 ## Hypercore
 
@@ -199,7 +199,7 @@
 	- Datenintegrität
 	- Protokoll zur Netzwerknutzung
 	
-- Aufbauend ist Hyperdrive als Abstraktionsschicht  um Daten zu repräsentieren
+- Aufbauend ist Hyperdrive als Abstraktionsschicht zur Datenrepräsentierung
 
 - Daten in Chunks geteilt und im Merkle Tree angeordnet
 
@@ -236,7 +236,7 @@
 
 - Integration in verbreitete Webbrowser durch Gateways
 
-- Aktuell keine Sicherheits- oder Authenfikationsmechanismen
+- Aktuell keine Sicherheits- oder Authentifikationsmechanismen
 
 - Wenig Kontrolle über verteilte Daten, explizit darüber was verteilt wird
 
@@ -248,4 +248,5 @@
 <div align="center">
 	<img src="./images/npm_trends.png" title="NPM-Trends DAT vs IPFS" width="100%"/>
 </div>
+
 
